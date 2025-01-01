@@ -60,14 +60,13 @@ After entering a YouTube URL and clicking "Download," the application will fetch
 
 ## Screenshots
 
-![alt text]([./SAVEBUSTER/Images/Screenshot%202025-01-01%20170004.png](https://raw.githubusercontent.com/SaiDivakar-Navara/SAVE-BUSTER_YouTube-Video-Downloader/refs/heads/main/SAVE%20BUSTER/Images/Screenshot%202025-01-01%20170004.png))
+![Home Page](https://raw.githubusercontent.com/SaiDivakar-Navara/SAVE-BUSTER_YouTube-Video-Downloader/refs/heads/main/SAVE%20BUSTER/Images/Screenshot%202025-01-01%20170004.png)
 
 ## Technologies Used
 - HTML, CSS, JavaScript
 - Python, FastAPI
 - GitHub Pages
 
---
 
 ## Future Enhancements
 - Add video quality selection.
