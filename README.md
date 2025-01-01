@@ -60,9 +60,9 @@ After entering a YouTube URL and clicking "Download," the application will fetch
 
 ## Screenshots
 
-![alt text](./SAVE BUSTER/Images/Screenshot%202025-01-01%20170004.png)
+![alt text](./SAVEBUSTER/Images/Screenshot%202025-01-01%20170004.png)
 
-![alt text](./SAVE BUSTER/Images/Screenshot%202025-01-01%20164812.png)
+![alt text](./Images/Screenshot%202025-01-01%20164812.png)
 
 ## Future Enhancements
 - Add video quality selection.
