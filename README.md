@@ -31,7 +31,7 @@ SAVEBUSTER is a web application that allows users to download YouTube videos usi
 1. **Clone the Repository**  
 
    
-        git clone https://github.com/SaiDivakar-Navara/SAVE-BUSTER_YouTube-Video-Downloader.git
+        gh repo clone SaiDivakar-Navara/SAVE-BUSTER_YouTube-Video-Downloader
 
 2. **Set Up the Backend**  
    
