@@ -1,4 +1,3 @@
-
 # SAVEBUSTER - YouTube Video Downloader  
 
 SAVEBUSTER is a web application that allows users to download YouTube videos using their video URL. The project is built using **FastAPI** for the backend and includes **HTML**, **CSS**, and **JavaScript** for the frontend.  
