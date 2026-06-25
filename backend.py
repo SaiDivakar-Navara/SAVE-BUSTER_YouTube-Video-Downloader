@@ -30,7 +30,7 @@ async def download_video(link: str = Form(...)):
     output_path = os.path.join(downloads_dir, custom_filename)
 
     youtube_dl_options = {
-        "format": "best",
+        "format": "bestvideo+bestaudio/best",
         "outtmpl": output_path,
     }
 
