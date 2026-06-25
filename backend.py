@@ -18,6 +18,11 @@ app.add_middleware(
 
 # Get the default Downloads folder
 downloads_dir = os.path.join(os.path.expanduser("~"), "Downloads")
+from fastapi.responses import FileResponse
+
+@app.get("/")
+async def home():
+    return FileResponse("index.html")
 
 @app.post("/download")
 async def download_video(link: str = Form(...)):
