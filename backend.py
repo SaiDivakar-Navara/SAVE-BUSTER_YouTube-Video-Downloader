@@ -56,3 +56,4 @@ async def download_video(link: str = Form(...)):
         return JSONResponse(content={"status": "Failed", "error": str(e)}, status_code=400)
     except Exception as e:
         return JSONResponse(content={"status": "Error", "error": str(e)}, status_code=500)
+
