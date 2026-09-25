@@ -24,6 +24,18 @@ from fastapi.responses import FileResponse
 async def home():
     return FileResponse("index.html")
 
+@app.get("/styles.css")
+async def css():
+    return FileResponse("styles.css", media_type="text/css")
+
+@app.get("/script.js")
+async def js():
+    return FileResponse("script.js", media_type="application/javascript")
+
+@app.get("/Images/{filename}")
+async def images(filename: str):
+    return FileResponse(f"Images/{filename}")
+
 @app.post("/download")
 async def download_video(link: str = Form(...)):
     if not os.path.exists(downloads_dir):
@@ -56,4 +68,3 @@ async def download_video(link: str = Form(...)):
         return JSONResponse(content={"status": "Failed", "error": str(e)}, status_code=400)
     except Exception as e:
         return JSONResponse(content={"status": "Error", "error": str(e)}, status_code=500)
-
