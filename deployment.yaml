@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: save-buster
+  labels:
+    app: save-buster
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: save-buster
+  template:
+    metadata:
+      labels:
+        app: save-buster
+    spec:
+      containers:
+      - name: save-buster
+        image: save-buster
+        ports: 
+        - containerPort: 4000

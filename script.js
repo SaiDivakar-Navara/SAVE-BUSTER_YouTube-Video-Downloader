@@ -9,7 +9,7 @@ document.getElementById("downloadForm").addEventListener("submit", async functio
 
     try {
         // Send the POST request to the backend
-        const response = await fetch("http://localhost:8000/download", {
+        const response = await fetch("/download", {
             method: "POST",
             body: formData,
         });
